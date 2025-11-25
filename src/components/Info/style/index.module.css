@@ -1,0 +1,108 @@
+.info {
+    position: relative;
+    margin: 130px;
+    padding: 50px;
+
+    background: white;
+    border-radius: 50px;
+}
+
+.info__title {
+    padding-top: 10px;
+    text-align: center;
+    
+    font-size: 55px;
+    font-weight: bold;
+    color: black;
+    background: transparent;
+}
+
+.info__title span {
+    color: #009BFF;
+    font-size: 55px;
+    font-weight: bold;
+    background: transparent;
+}
+
+.info__mini {
+    padding-top: 10px;
+    text-align: center;
+    
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    background: transparent;
+}
+
+.info__block {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    
+    background: transparent;
+}
+
+.info__block__img {
+    height: 270px;
+}
+
+/* tooltip */
+
+.container,
+.containerTwo,
+.containerThree,
+.containerFour {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #009BFF;
+    cursor: pointer;
+}
+
+.container      { top: 235px; left: 400px; }
+.containerTwo   { top: 400px; left: 460px; }
+.containerThree { top: 190px; left: 780px; }
+.containerFour  { top: 430px; left: 740px; }
+
+.container__text,
+.containerTwo__text,
+.containerThree__text,
+.containerFour__text {
+    width: 180px;
+    padding: 10px;
+    background: transparent;
+    border: 1px dashed #009BFF;
+    border-radius: 10px;
+    
+    position: absolute;
+    top: 0;
+    right: 50px;
+    
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.containerTwo__text { width: 200px; right: 130px; }
+.containerThree__text { width: 200px; top: 0; left: 120px; }
+.containerFour__text  { width: 300px; top: -50px; left: 170px; }
+
+.container:hover .container__text,
+.containerTwo:hover .containerTwo__text,
+.containerThree:hover .containerThree__text,
+.containerFour:hover .containerFour__text {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
