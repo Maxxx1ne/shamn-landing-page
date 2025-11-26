@@ -3,11 +3,10 @@
 }
 
 .main__text {
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     
     font-size: 60px;
     font-weight: bold;
-    color: black;
 }
 
 .main__text span {
@@ -21,7 +20,7 @@
     
     font-size: 25px;
     font-weight: bold;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .main__img {
@@ -35,16 +34,15 @@
 .main__block {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 25px;
 }
 
 .main__block__button {
-    padding: 15px 40px;
+    padding: 15px 50px;
     
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     line-height: 25px;
-    letter-spacing: 0%;
     
     background: #009BFF;
     color: white;
@@ -53,13 +51,18 @@
     
     text-decoration: none;
     display: inline-block;
+
     cursor: pointer;
-    transition: background 0.3s ease, color 0.3s ease;
+    transition: 0.3s;
 }
 
 .main__block__button:hover {
     background: #009BFF50;
-    color: #009BFF;
+    color: #1e3d6f;
+
+    -webkit-box-shadow: 10px 10px 30px 0px rgba(30, 61, 111, 0.26);
+    -moz-box-shadow: 10px 10px 30px 0px rgba(30, 61, 111, 0.26);
+    box-shadow: 10px 10px 30px 0px rgba(30, 61, 111, 0.26);
 }
 
 .main__block__link {
@@ -73,7 +76,6 @@
     font-size: 14px;
     font-weight: bold;
     line-height: 25px;
-    letter-spacing: 0%;
     
     border: 1px dashed gray;
 }

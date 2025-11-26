@@ -22,7 +22,7 @@ export const Info = () => {
                 <div className={style.containerThree__text}>Корпус изготовлен из высокопрочной стали</div>
             </div>
             <div class={style.containerFour}>
-                <div className={style.containerFour__text}>Уникальная система рекуперации энергии торможения и энергии инерции</div>
+                <div className={style.containerFour__text}>Уникальная система рекуперации энергии торможения</div>
             </div>
         </div>
     )
