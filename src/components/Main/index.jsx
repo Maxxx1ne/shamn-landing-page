@@ -12,7 +12,7 @@ export const Main = () => {
                 <a href="#registration-modal" className={style.main__block__button}>Получить предложение</a>
                 <p className={style.main__block__link}><img src={phone} alt="телефон" /> Перезвоним в течении дня для консультации</p>
             </div>
-            {/* Модальное окно */}
+            {/* Modal */}
             <div id="registration-modal" className={style.modal}>
                 <div className={style.modal__content}>
                     <a href="/" className={style.modal__content__close}>&times;</a>

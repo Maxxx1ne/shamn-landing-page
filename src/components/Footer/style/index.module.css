@@ -1,0 +1,63 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 10px 130px;
+    padding: 15px;
+    
+    background: white;
+}
+
+.footer__mini {
+    font-size: 15px;
+    line-height: 20px;
+    
+    background: transparent;
+}
+
+.footer__link {
+    font-size: 15px;
+    line-height: 20px;
+    color: black;
+    
+    background: transparent;
+    
+    transition: color 0.3s ease;
+}
+
+.footer__link:hover {
+    color: #009BFF;
+}
+
+.footer__tel {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bold;
+    
+    background: transparent;
+}
+
+.footer__tel span {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    
+    background: transparent;
+}
+
+.footer__email {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bold;
+    
+    background: transparent;
+}
+
+.footer__email span {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    
+    background: transparent;
+}

@@ -5,6 +5,9 @@ import { Info } from './components/Info'
 import { Engine } from './components/Engine'
 import { Telemetry } from './components/Telemetry'
 import { Catalog } from './components/Сatalog'
+import { Galary } from './components/Galary'
+import { Video } from './components/Video'
+import { Footer } from './components/Footer'
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
       <Engine />
       <Telemetry />
       <Catalog />
+      <Galary />
+      <Video />
+      <Footer />
     </div>
   )
 }
