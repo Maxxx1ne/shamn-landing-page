@@ -26,7 +26,7 @@
     justify-content: center;
     gap: 10px;
     
-    animation: spin 100s infinite linear;
+    animation: spin 85s infinite linear;
 }
 
 .galary__group__img {

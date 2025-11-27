@@ -8,6 +8,7 @@ import { Catalog } from './components/Сatalog'
 import { Galary } from './components/Galary'
 import { Video } from './components/Video'
 import { Footer } from './components/Footer'
+import { Form } from './components/Form'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Catalog />
       <Galary />
       <Video />
+      <Form />
       <Footer />
     </div>
   )
